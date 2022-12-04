@@ -4,7 +4,7 @@ metadata:
   name: pv-pod
 spec:
   volumes:
-    - name: hostpath_pvc
+    - name: hostpath-pvc
       persistentVolumeClaim:
         claimName: pvc
   containers:
