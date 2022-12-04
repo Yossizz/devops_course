@@ -6,7 +6,7 @@ spec:
   volumes:
     - name: hostpath-pvc
       persistentVolumeClaim:
-        claimName: pvc
+        claimName: hostpath-pvc
   containers:
     - name: pv-container
       image: nginx
